@@ -1,12 +1,11 @@
-import React from 'react';
-
-import React, { Component } from 'react';
-
-// import { Container } from './styles';
+import React, { Component, Fragment } from "react";
+import './styles.css';
 
 class Main extends Component {
   render() {
-    return <div />;
+    return (
+      <Fragment />
+    );
   }
 }
 

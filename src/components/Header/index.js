@@ -1,9 +1,11 @@
-import React from "react";
+import React, { Component } from "react";
 import "./styles.css";
 
 class Header extends Component {
 	render() {
-		<header id="main-header"></header>
+		return(
+			<header id="main-header">PORTIFOLIO - Guilherme Camargo</header>
+		);
 	}
 }
 
