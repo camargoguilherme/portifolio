@@ -14,7 +14,11 @@ class Main extends Component {
         <ListSection/>
         <Footer />
         <Section className="copyright py-4 text-center text-white">
-          <small>Copyright &copy; Your Website 2019</small>
+          <small>Guilherme Camargo Desenvolvimento Back-end 2019</small>
+          <br/>
+          <small>guilhermecamargo57@hotmail.com</small>
+          <br/>
+          <small>+55 (43) 984 231 673</small>
         </Section>
       </Fragment>
     );

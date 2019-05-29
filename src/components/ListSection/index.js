@@ -38,7 +38,8 @@ class ListSection extends Component {
     about: [
       {info: 'Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.'},
       {info: 'You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!'}
-    ]
+    ],
+    curriculum: "assets/CV-Guilherme-Camargo.pdf"
   }
   
   render(){
@@ -57,10 +58,10 @@ class ListSection extends Component {
   
         <Section className="page-section bg-primary text-white mb-0" id="about">
           {/* <!-- About Section Heading --> */}
-          <h2 className="page-section-heading text-center text-uppercase text-white">About</h2>
+          <h2 className="page-section-heading text-center text-uppercase text-white">Sobre</h2>
           <Divider className="divider-light"/>
           <Content info1={this.state.about[0].info} info2={this.state.about[1].info} />
-          <Button />
+          <Button>{this.state.curriculum}</Button>
         </Section>
   
         <Section className="page-section" id="contact">

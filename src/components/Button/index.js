@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 
-const ButtonDownload = () =>{
+const ButtonDownload = (props) =>{
 		return(
 			<div class="text-center mt-4">
-        <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
+        <a class="btn btn-xl btn-outline-light" target="_blank" href={props.children}>
           <i class="fas fa-download mr-2"></i>
-          Free Download!
+          Curriculum Vitae!
         </a>
       </div>
 		);

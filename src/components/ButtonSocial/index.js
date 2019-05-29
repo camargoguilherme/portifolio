@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 const ButtonSocial = (props) =>{
 		return(
-			<a class="btn btn-outline-light btn-social mx-1" href={props.children.link}>
+			<a class="btn btn-outline-light btn-social mx-1" target="_blank" href={props.children.link}>
         <i class={`fab fa-fw ${props.children.media}`}></i>
       </a>
 		);

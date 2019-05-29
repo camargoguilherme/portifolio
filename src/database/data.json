@@ -1,0 +1,57 @@
+{
+  "profile":{
+    "name":"Guilherme Camargo",
+    "resume":"Olá, sou Guilherme Camargo. Back-end Developer, nasci em Congonhinhas - PR, atualmente morando em Londrina – PR.",
+    "perfil":"img/profile.jpeg"
+  },
+  "medias":[
+    {
+      "media": "fa-facebook-f",
+      "link": "https://www.facebook.com/guilhermecamargo57"
+    },
+    {
+      "media": "fa-twitter",
+      "link": "https://twitter.com/camargo_guilher"
+    },
+    {
+      "media": "fa-linkedin-in",
+      "link": "https://www.linkedin.com/in/guilherme-camargo-6ba534127/"
+    }
+  ],
+  "portfolio": [
+    { 
+      "data-target": "#portfolioModal1",
+      "src": "img/portfolio/cabin.png"
+    },
+    { 
+      "data-target": "#portfolioModal2",
+      "src": "img/portfolio/cake.png"
+    },
+    { 
+      "data-target": "#portfolioModal3",
+      "src": "img/portfolio/circus.png"
+    },
+    { 
+      "data-target": "#portfolioModal4",
+      "src": "img/portfolio/game.png"
+    },
+    { 
+      "data-target": "#portfolioModal5",
+      "src": "img/portfolio/safe.png"
+    },
+    { 
+      "target": "#portfolioModal6",
+      "src": "img/portfolio/submarine.png"
+    }
+  ],
+  "about": [
+    { 
+      "info": "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization."
+    },
+    {
+      "info": "You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!"
+    }
+  ],
+  "curriculum": "assets/CV-Guilherme-Camargo.pdf"
+
+}
