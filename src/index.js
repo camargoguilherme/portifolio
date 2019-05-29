@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/index.css';
-import Router from './routes';
+import Main from './pages/Main';
 
-ReactDOM.render(<Router />, document.getElementById('root'));
+ReactDOM.render(<Main />, document.getElementById('page-top'));
