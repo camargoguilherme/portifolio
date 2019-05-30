@@ -8,13 +8,13 @@ class Form extends Component {
     inputs:[
       {
         label: "Name",
-        id: "",
+        id: "name",
         type: "text",
         message: "Please enter your name."
       },
       {
         label: "Email Address",
-        id: "name",
+        id: "email",
         type: "email",
         message: "Please enter your email address."
       },
@@ -40,8 +40,8 @@ class Form extends Component {
             {/* <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. --> */}
             <form name="sentMessage" id="contactForm" novalidate="novalidate">
               {
-                this.state.inputs.map( item =>{
-                  return <ItemForm className="control-group" >{item}</ItemForm>
+                this.state.inputs.map( (item, index) =>{
+                  return <ItemForm key={index} className="control-group" >{item}</ItemForm>
                 })
               }
               <br />

@@ -5,11 +5,9 @@ import ListButtonSocial from "../ListButtonSocial";
 class Footer extends Component {
 	render() {
 		return(
-			<footer class="footer text-center">
-				<div class="container">
-					<div class="row">
+			<footer className="footer text-center">
+				<div className="container">
 						<ListButtonSocial />
-					</div>
 				</div>
 			</footer>
 		);

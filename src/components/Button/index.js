@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 
 const ButtonDownload = (props) =>{
 		return(
-			<div class="text-center mt-4">
-        <a class="btn btn-xl btn-outline-light" target="_blank" href={props.children}>
-          <i class="fas fa-download mr-2"></i>
-          Curriculum Vitae!
+			<div className="text-center mt-4">
+        <a className="btn btn-xl btn-outline-light" target="_blank" rel="noopener noreferrer" href={props.children}>
+          <i className="fas fa-download mr-2"></i>
+          Curriculum Vitae
         </a>
       </div>
 		);

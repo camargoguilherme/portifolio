@@ -1,8 +1,11 @@
-{
+{ 
   "profile":{
     "name":"Guilherme Camargo",
     "resume":"Olá, sou Guilherme Camargo. Back-end Developer, nasci em Congonhinhas - PR, atualmente morando em Londrina – PR.",
-    "perfil":"img/profile.jpeg"
+    "perfil":"img/profile.jpeg",
+    "email":"guilhermecamargo57@hotmail.com",
+    "area":"Desenvolvimento Back-end",
+    "phone":"+55 (43) 984 231 673"
   },
   "medias":[
     {
@@ -52,6 +55,68 @@
       "info": "You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!"
     }
   ],
-  "curriculum": "assets/CV-Guilherme-Camargo.pdf"
-
+  "curriculum": "assets/CV-Guilherme-Camargo.pdf",
+  "details":[
+    {
+      "title":"Interesses",
+      "items":[  
+        "Ecossistema Javascript",
+        "Desenvolvimento Back-end",
+        "Aplicativos Mobile"
+      ]
+    },
+    {
+      "title":"Idiomas",
+      "items":[
+        "Português – Nativo",
+        "Inglês – Básico"
+      ]
+    },
+    {
+      "title":"Formação",
+      "items":[
+        "2016-2019/UTFPR – Tecnologia em Análise e Desenvolvimento de Sistemas"
+      ]
+    },
+    {
+      "title":"Atividades desenvolvidas",
+      "items":[
+        "Desenvolvimento de Aplicativos Mobile",
+        "Desenvolvimento Back-End",
+        "Administração de Banco de Dados Oracle/SQL Server"
+      ]
+    }
+  ],
+  "skills":[
+    "JavaScript",
+    "MySQL",
+    "Ajax",
+    "PostgreSQL",
+    "Java",
+    "CSS3",
+    "PHP",
+    "SQL Server",
+    "SQL",
+    "JQuery",
+    "HTML5",
+    "NodeJS",
+    "MongoDB",
+    "GIT",
+    "Android",
+    "React Js",
+    "React Native",
+    "Laravel",
+    "Linux",
+    "JSON",
+    "Python",
+    "phpMyAdmin",
+    "MySQL Workbench",
+    "XAMPP",
+    "Composer",
+    "NPM",
+    "SublimeText",
+    "VirtualBox",
+    "Firebase",
+    "Heroku"
+  ]
 }

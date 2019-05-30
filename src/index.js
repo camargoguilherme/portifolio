@@ -2,4 +2,4 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Main from './pages/Main';
 
-ReactDOM.render(<Main />, document.getElementById('page-top'));
+ReactDOM.render(<Main />, document.getElementById('root'));
