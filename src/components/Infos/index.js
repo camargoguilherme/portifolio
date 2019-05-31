@@ -22,7 +22,7 @@ class Infos extends Component {
         
         <div className="row">
           { this.state.details && this.state.details.map( (item, index) =>{
-              return  <Fragment>
+              return  <Fragment key={index}>
                         <div className={`col-lg-4 ${index % 2 == 0 ? 'ml-auto': 'mr-auto'}`}>
                           <h4 className="text-center">{ item.title }</h4>
                           <p className="lead">{item.info}</p>
