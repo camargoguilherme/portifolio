@@ -38,7 +38,7 @@ class Form extends Component {
       <div className="row">
           <div className="col-lg-8 mx-auto">
             {/* <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. --> */}
-            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+            <form name="sentMessage" id="contactForm" novalidate="novalidate" method="POST" action="https://formspree.io/guilhermecamargo57@hotmail.com">
               {
                 this.state.inputs.map( (item, index) =>{
                   return <ItemForm key={index} className="control-group" >{item}</ItemForm>

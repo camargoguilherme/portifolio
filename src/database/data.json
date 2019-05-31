@@ -75,10 +75,12 @@
   ],
   "details": [
     { 
-      "info": "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization."
+      "title":"BIOGRAFIA",
+      "info": "Em 2010 iniciei o ensino medio no Colegio Estadual Padre Jeronimo Onuma em São Sebastião da Amoreria - PR. Em 2013, após concluir o ensino médio, me mudei para Londrina - PR por livre e espantanea pressão do meu informação para poder estudar para o velitbular da UEL, na época queria cursar Engenharia Civil. No mesmo ano, conheci minha esposa Sandra (agora, ex-esposa). Em 2014 nasceu minha filha (Thayla), minha princesinha. Em 2016 iniciei o curso superior de tecnologia em análise de sistemas de informação na Universidade Tecnológica Federal do Paraná (UTFPR)."
     },
     {
-      "info": "You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!"
+      "title":"PROFISSÃO",
+      "info": "Trabalhei no Super Muffato (2013-2015) como empacotador, auxiliar de confeitaria e auxiliar de padaria. No final de 2015 comecei a trabalhar em uma loja de produtos importados diretamente do Japão como Atendente / Almoxarife / Caixa. Foi onde descobri que gostava muito da area de tecnologia e decidi ingressar na UTFPR. Em janeiro de 2018, entrei no Hospital Evangélico de Londrina e fiquei até Julho, como atendente de suporte. Trabalhei de Julho a Dezembro de 2018 em uma lanchonete com a minha ex. Atualmente estou na TCS (Tata Consultancy Services), ingressei em fevereiro de 2019."
     }
   ],
   "curriculum": "assets/CV-Guilherme-Camargo.pdf",

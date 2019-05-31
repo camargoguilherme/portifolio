@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-
 import Detalhes from "../Detalhes";
+
 class Content extends Component {
   constructor(props){
     super(props)

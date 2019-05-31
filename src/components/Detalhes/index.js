@@ -8,7 +8,7 @@ class Detalhes extends Component {
   render(){
     return(
       <div className="col-md-6 col-lg-6 align-content-center">
-        <h6 className="page-section-heading text-center text-white">{ this.state.title }</h6>
+        <h4 className="text-center">{ this.state.title }</h4>
         <ul>
           {
             this.state.items &&  this.state.items.map( (item, index) =>{

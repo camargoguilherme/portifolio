@@ -4,20 +4,40 @@ import Nav from '../../components/Nav';
 import Footer from "../../components/Footer";
 import ListSection from "../../components/ListSection";
 import Copyright from "../../components/Copyright";
-import api from '../../services/api';
 
+import { PROFILE } from '../../services/api';
 
 class Main extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      profile: [],
+      ready: false
+    }
+  }
+
+  async componentDidMount(){
+    const profile = await PROFILE();
+    this.setState({ profile, ready: true });
+  }
+
   render() {
-    return (
-      <Fragment >
-        <Nav />
-        <Header />
-        <ListSection />
-        <Footer />
-        <Copyright />
-      </Fragment>
-    );
+    const { profile, ready } = this.state;
+    if(ready){
+      return (
+        <Fragment >
+          <Nav />
+          <Header />
+          <ListSection />
+          <Footer />
+          <Copyright profile={profile}/>
+        </Fragment>
+      );
+    }else{
+      return null;
+    }
+
+
   }
 }
 

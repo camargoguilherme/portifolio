@@ -1,6 +1,6 @@
 import React from "react";
 
-const ButtonDownload = (props) =>{
+const Button = (props) =>{
 		return(
 			<div className="text-center mt-4">
         <a className="btn btn-xl btn-outline-light" target="_blank" rel="noopener noreferrer" href={props.children}>
@@ -11,4 +11,4 @@ const ButtonDownload = (props) =>{
 		);
 }
 
-export default ButtonDownload;
+export default Button;

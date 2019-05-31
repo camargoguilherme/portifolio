@@ -4,14 +4,10 @@ import Divider from '../Divider';
 import Button from '../Button';
 import Content from '../Content'
 
-import api from '../../services/api';
-
 class About extends Component {
   constructor(props){
     super(props)
-    this.state = {
-      about: props.about
-    }
+    this.state = { ...props}
   }
 
   render() {
