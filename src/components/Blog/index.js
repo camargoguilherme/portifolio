@@ -13,12 +13,11 @@ class Blog extends Component {
   }
   render() {
     return (
-      <Section className="page-section bg-primary text-white mb-0" id="blog">
+      <Section className="page-section" id="blog">
         {/* <!-- About Section Heading --> */}
-        <h2 className="page-section-heading text-center text-uppercase text-white">Blog</h2>
+        <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Blog</h2>
         <Divider className="divider-light"/>
-        <Content/>
-        <Button>{this.state.curriculum}</Button>
+        
       </Section>
     );
   }

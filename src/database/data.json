@@ -1,4 +1,30 @@
 { 
+  "menu": [
+    {
+      "id": "portfolio",
+      "title": "Portfolio"
+    },
+    {
+      "id": "about",
+      "title": "Sobre"
+    },
+    {
+      "id": "skills",
+      "title": "Habilidades"
+    },
+    {
+      "id": "infos",
+      "title": "Infos"
+    },
+    {
+      "id": "blog",
+      "title": "Blog"
+    },
+    {
+      "id": "contact",
+      "title": "Contato"
+    }
+  ],
   "profile":{
     "name":"Guilherme Camargo",
     "resume":"Olá, sou Guilherme Camargo. Back-end Developer, nasci em Congonhinhas - PR, atualmente morando em Londrina – PR.",
@@ -47,7 +73,7 @@
       "src": "img/portfolio/submarine.png"
     }
   ],
-  "about": [
+  "details": [
     { 
       "info": "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization."
     },
@@ -56,7 +82,7 @@
     }
   ],
   "curriculum": "assets/CV-Guilherme-Camargo.pdf",
-  "details":[
+  "about":[
     {
       "title":"Interesses",
       "items":[  

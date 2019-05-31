@@ -4,6 +4,8 @@ import Nav from '../../components/Nav';
 import Footer from "../../components/Footer";
 import ListSection from "../../components/ListSection";
 import Copyright from "../../components/Copyright";
+import api from '../../services/api';
+
 
 class Main extends Component {
   render() {
@@ -11,7 +13,7 @@ class Main extends Component {
       <Fragment >
         <Nav />
         <Header />
-        <ListSection/>
+        <ListSection />
         <Footer />
         <Copyright />
       </Fragment>

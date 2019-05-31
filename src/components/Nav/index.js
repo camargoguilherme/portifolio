@@ -1,37 +1,20 @@
 import React, { Component } from 'react';
 import ItemMenu from '../ItemMenu';
-
-// import { Container } from './styles';
+import api from '../../services/api';
 
 class Nav extends Component {
-  state = {
-    menu: [
-      {
-        id: 'portfolio',
-        title: 'Portfolio'
-      },
-      {
-        id: 'about',
-        title: 'Sobre'
-      },
-      {
-        id: 'skills',
-        title: 'Habilidades'
-      },
-      {
-        id: 'contact',
-        title: 'Contato'
-      },
-      {
-        id: 'infos',
-        title: 'Infos'
-      },
-      {
-        id: 'blog',
-        title: 'Blog'
-      },
-    ]
+  constructor(props){
+    super(props)
+    this.state = { 
+      menu: []
+    }
   }
+  
+  async componentDidMount(){
+    const menu = await api.get('/menu')
+    this.setState({menu: menu.data})
+  }
+
   render() {
     return (
       // <!-- Navigation -->

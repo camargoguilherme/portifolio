@@ -1,18 +1,22 @@
 import React, { Component } from "react";
 import './styles.css';
-import data from '../../database/data.json';
+import api from '../../services/api';
 
 class Header extends Component {
 	constructor(props){
 		super(props)
-		const { name, resume, perfil } = data.profile
 		this.state = {
-			name,
-			resume,
-			perfil
+			name: '',
+			resume: '',
+			perfil: ''
 		}
 	}
-		
+	
+	async componentDidMount(){
+		const profile = await api.get('/profile')
+		this.setState({...profile.data[0]})
+	}
+
 	render() {
 		return(
 			<header className="masthead bg-primary text-white text-center">

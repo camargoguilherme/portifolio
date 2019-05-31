@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Detalhes extends Component {
   constructor(props){
     super(props)
-    this.state = {...props.details}
+    this.state = {...props.about}
   }
   render(){
     return(
