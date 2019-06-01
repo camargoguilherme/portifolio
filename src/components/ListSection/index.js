@@ -32,7 +32,6 @@ class ListSection extends Component {
     const { profile, about, skills, details, blog, ready } = this.state;
 
     if(ready){
-      alert(JSON.stringify(profile))
       return (
         <Fragment>
           <Portifolio profile={profile} />
