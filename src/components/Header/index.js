@@ -8,7 +8,7 @@ class Header extends Component {
 		this.state = {
 			name: '',
 			resume: '',
-			perfil: ''
+			avatar: ''
 		}
 	}
 	
@@ -23,7 +23,7 @@ class Header extends Component {
 				<div className="container d-flex align-items-center flex-column">
 
 					{/* <!-- Masthead Avatar Image --> */}
-					<img className="masthead-avatar mb-5" src={this.state.perfil} alt=""/>
+					<img className="masthead-avatar mb-5" src={this.state.avatar} alt=""/>
 
 					{/* <!-- Masthead Heading --> */}
 					<h1 className="masthead-heading text-uppercase mb-0">{this.state.name}</h1>

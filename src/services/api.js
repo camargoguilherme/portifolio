@@ -1,13 +1,13 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL:  "https://api-portifolio.herokuapp.com" // URL to services
+  baseURL:  "https://api-portifolio.herokuapp.com" // "http://localhost:3003/" // URL to services
 });
 
 
 export const PROFILE = async () => {
-  const profile = await api.get('/profile')
-  return profile.data
+  const profile = await api.get('/profile')   
+  return profile.data[0]
 }
 
 export const ABOUT = async () => {
