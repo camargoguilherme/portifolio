@@ -6,7 +6,7 @@ import Skills from '../Skills';
 import Infos from '../Infos';
 import Blog from '../Blog';
 
-import { PROFILE, ABOUT, DETAILS, SKILLS } from '../../services/api'
+import { PROFILE, ABOUT, DETAILS, SKILLS, BLOG, PORTIFOLIO } from '../../services/api'
 
 class ListSection extends Component {  
   constructor(props){
@@ -25,8 +25,10 @@ class ListSection extends Component {
     const about = await ABOUT();
     const details = await DETAILS();
     const skills = await SKILLS();
-    // const blog = await BLOG();
-    this.setState({ profile, about, skills, details, ready: true });
+    const blog = await BLOG();
+    const portifolio = await PORTIFOLIO();
+
+    this.setState({ profile, about, skills, details, blog, portifolio, ready: true });
   }
   render(){
     const { portifolio, profile, about, skills, details, blog, ready } = this.state;

@@ -8,10 +8,14 @@ class ItemBlog extends Component {
   render(){
     return (
       <Fragment>
-        <li className="nav-item mx-0 px-lg-3">
-          <img className="img-fluid col-3" src={this.state.src} alt="" />
-          <a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href={this.state.url}>{this.state.title}</a>
-        </li>
+        <div className="card" style={{width: '20rem'}}>
+          <img className="card-img-top" src={this.state.image} alt={this.state.title} />
+          <div className="card-body">
+            <h5 className="card-title">{this.state.title}</h5>
+            <p className="card-text">{this.state.resume}</p>
+            <a href={this.state.link} className="btn btn-primary" target="_blank">Ir para o post</a>
+          </div>
+        </div>
       </Fragment>
     );
   }

@@ -1,8 +1,4 @@
 li.badge:hover{
-    color: #ffffff;
-    background: #2c3e50;
-}
-
-li.bage:hover{
-	
+    color: #ffffff !important;
+    background: #2c3e50 !important;
 }

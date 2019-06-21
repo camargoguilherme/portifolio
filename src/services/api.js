@@ -30,4 +30,14 @@ export const MEDIAS = async () => {
   return medias.data
 }
 
+export const PORTIFOLIO = async () => {
+  const portifolio   = await api.get('/portifolio')
+  return portifolio .data
+}
+
+export const BLOG = async () => {
+  const blog   = await api.get('/blog')
+  return blog .data
+}
+
 export default api;

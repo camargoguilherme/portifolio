@@ -21,9 +21,7 @@ const blog = [
 class Blog extends Component {
   constructor(props){
     super(props)
-    this.state = { 
-      blog: blog
-    }
+    this.state = { ...props }
   }
   render() {
     return (
@@ -32,8 +30,8 @@ class Blog extends Component {
         <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Blog</h2>
         <Divider className="divider-light"/>
         {
-          this.state.blog.map( item =>{
-            return <ItemBlog item={item}></ItemBlog>
+          this.state.blog.map( (item, index) =>{
+            return <ItemBlog key={index} item={item}></ItemBlog>
           })
         }
       </Section>

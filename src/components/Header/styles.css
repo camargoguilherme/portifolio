@@ -1,5 +1,7 @@
 .masthead .masthead-avatar {
   border-radius: 50%;
+  max-width: 20rem !important;
+  max-height: 20rem !important;
 }
 
 @media (min-width:576px) {
@@ -13,17 +15,5 @@
   .masthead .masthead-avatar {
     width: 20rem !important;
     height: 20rem !important;
-  }
- }
- @media (min-width:992px) {
-  .masthead .masthead-avatar {
-    width: 25rem !important;
-    height: 25rem !important;
-  }
- }
- @media (min-width:1200px) {
-  .masthead .masthead-avatar {
-    width: 30rem !important;
-    height: 30rem !important;
   }
  }
