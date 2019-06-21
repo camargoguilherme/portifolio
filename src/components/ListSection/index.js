@@ -29,12 +29,12 @@ class ListSection extends Component {
     this.setState({ profile, about, skills, details, ready: true });
   }
   render(){
-    const { profile, about, skills, details, blog, ready } = this.state;
+    const { portifolio, profile, about, skills, details, blog, ready } = this.state;
 
     if(ready){
       return (
         <Fragment>
-          <Portifolio profile={profile} />
+          <Portifolio portifolio={portifolio} />
           <About about={about} curriculum={profile.curriculum} />
           <Skills skills={skills} />
           <Infos details={details} />

@@ -8,7 +8,7 @@ import data from '../../database/data.json';
 class Portifolio extends Component {
   constructor(props){
     super(props)
-    this.state = { ...data}
+    this.state = { ...props.item}
   }
   render() {
     return (
