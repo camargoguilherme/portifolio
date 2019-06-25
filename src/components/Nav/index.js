@@ -10,9 +10,34 @@ class Nav extends Component {
     }
   }
   
-  async componentDidMount(){
-    const menu = await api.get('/menu')
-    this.setState({menu: menu.data})
+  componentDidMount(){
+    const menu = [
+      {
+        id: 'portifolio',
+        title: 'Portioflio'
+      },
+      {
+        id: 'about',
+        title: 'Sobre'
+      },
+      {
+        id: 'skills',
+        title: 'Habilidades'
+      },
+      {
+        id: 'infos',
+        title: 'Infos'
+      },
+      {
+        id: 'blog',
+        title: 'Blog'
+      },
+      {
+        id: 'contact',
+        title: 'Contato'
+      }
+    ]
+    this.setState({menu})
   }
 
   render() {
