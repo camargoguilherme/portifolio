@@ -14,7 +14,7 @@ class Nav extends Component {
     const menu = [
       {
         id: 'portifolio',
-        title: 'Portioflio'
+        title: 'Portiofolio'
       },
       {
         id: 'about',
