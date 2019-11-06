@@ -1,10 +1,10 @@
 import React, { Component, Fragment } from 'react';
-import Portifolio from '../Portifolio';
-import About from '../About';
-import Contact from '../Contact';
-import Skills from '../Skills';
-import Infos from '../Infos';
-import Blog from '../Blog';
+import Portifolio from '../../pages/Portifolio';
+import About from '../../pages/About';
+import Contact from '../../pages/Contact';
+import Skills from '../../pages/Skills';
+import Infos from '../../pages/Infos';
+import Blog from '../../pages/Blog';
 
 import { PROFILE, ABOUT, DETAILS, SKILLS, BLOG, PORTIFOLIO } from '../../services/api'
 

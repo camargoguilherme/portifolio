@@ -1,10 +1,6 @@
 import React, { Component, Fragment } from "react";
 import Section from '../Section';
-import Divider from '../Divider';
-import Content from '../Content';
-import Button from '../Button';
-
-import api from '../../services/api'
+import Divider from '../../components/Divider';
 
 class Infos extends Component {
   constructor(props){
@@ -23,7 +19,7 @@ class Infos extends Component {
         <div className="row">
           { this.state.details && this.state.details.map( (item, index) =>{
               return  <Fragment key={index}>
-                        <div className={`col-lg-4 ${index % 2 == 0 ? 'ml-auto': 'mr-auto'}`}>
+                        <div className={`col-lg-4 ${index % 2 === 0 ? 'ml-auto': 'mr-auto'}`}>
                           <h4 className="text-center">{ item.title }</h4>
                           <p className="lead">{item.info}</p>
                         </div>

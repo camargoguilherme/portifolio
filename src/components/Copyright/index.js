@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Section from '../../components/Section';
+import Section from '../../pages/Section';
 import data from '../../database/data.json'
 class Copyright extends Component {
   constructor(props){

@@ -14,7 +14,7 @@ class Item extends Component {
             <img className="card-img-top" src={this.state.image} alt={this.state.title} />
             <div className="card-body">
               <p className="card-text">{this.state.title}</p>
-              <a href={this.state.github} target="_blank">Github</a>
+              <a href={this.state.github} target="_blank" without rel="noopener noreferrer">Github</a>
             </div>
           </div>
         </div>

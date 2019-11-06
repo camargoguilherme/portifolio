@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Section from '../Section';
-import Divider from '../Divider';
-import Form from '../Form';
+import Divider from '../../components/Divider';
+import Form from '../../components/Form';
 
 import data from '../../database/data.json';
 

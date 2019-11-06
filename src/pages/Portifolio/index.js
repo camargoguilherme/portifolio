@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Section from '../Section';
-import Divider from '../Divider';
+import Divider from '../../components/Divider';
 import Item from './item';
 
 

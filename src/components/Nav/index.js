@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ItemMenu from '../ItemMenu';
-import api from '../../services/api';
 
 class Nav extends Component {
   constructor(props){

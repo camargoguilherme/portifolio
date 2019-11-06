@@ -31,13 +31,13 @@ export const MEDIAS = async () => {
 }
 
 export const PORTIFOLIO = async () => {
-  const portifolio   = await api.get('/portifolio')
-  return portifolio .data
+  const portifolio = await api.get('/portifolio')
+  return portifolio.data
 }
 
 export const BLOG = async () => {
-  const blog   = await api.get('/blog')
-  return blog .data
+  const blog = await api.get('/blog')
+  return blog.data
 }
 
 export default api;

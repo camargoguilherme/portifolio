@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Section from '../Section';
-import Divider from '../Divider';
-import Button from '../Button';
-import Content from '../Content'
+import Divider from '../../components/Divider';
+import Button from '../../components/Button';
+import Content from '../../components/Content'
 
 class About extends Component {
   constructor(props){

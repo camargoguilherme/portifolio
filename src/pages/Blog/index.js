@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Section from '../Section';
-import Divider from '../Divider';
-import ItemBlog from '../ItemBlog';
+import Divider from '../../components/Divider';
+import ItemBlog from '../../components/ItemBlog';
 import './styles.css';
 
 class Blog extends Component {

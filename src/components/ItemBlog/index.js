@@ -15,7 +15,7 @@ class ItemBlog extends Component {
             <p className="card-text">{this.state.resume}</p>
           </div>
           <div style={{margin: '0 auto'}}>
-            <a href={this.state.link} className="btn btn-primary" target="_blank">Ir para o post</a>
+            <a href={this.state.link} className="btn btn-primary" target="_blank" without rel="noopener noreferrer">Ir para o post</a>
           </div>
         </div>
       </Fragment>
