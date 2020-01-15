@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,2BACE,iBAAkB,CAClB,yBAA2B,CAC3B,0BACF,CAEA,yBACE,2BACE,iBAAkB,CAClB,qBAAuB,CACvB,sBACF,CACD,CACA,yBACC,2BACE,qBAAuB,CACvB,sBACF,CACD,CAlBD,eACI,oBAAyB,CACzB,4BACJ","file":"main.3e1ce8dc.chunk.css","sourcesContent":["li.badge:hover{\n    color: #ffffff !important;\n    background: #2c3e50 !important;\n}\n"]}
